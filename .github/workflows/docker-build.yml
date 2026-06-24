@@ -1,0 +1,16 @@
+name: Enterprise RAG CI Build
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Test Docker Build
+        run: docker build -t enterprise-rag-bot .
