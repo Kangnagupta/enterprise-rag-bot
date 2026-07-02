@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 7. Set the command to run your bot when the container starts
-CMD ["python", "src/bot.py"]
+CMD ["streamlit", "run", "bot.py", "--server.port=8501", "--server.address=0.0.0.0"]
