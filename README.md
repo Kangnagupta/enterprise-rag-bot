@@ -1,4 +1,4 @@
-# 🤖 Enterprise RAG IT Helpdesk Bot
+# 🤖 Fargate-RAG IT Helpdesk Bot
 
 A custom Retrieval-Augmented Generation (RAG) AI chatbot built to act as an automated IT Helpdesk assistant. The bot leverages an open-source Large Language Model (TinyLlama) and a vector database (ChromaDB) to answer employee IT questions strictly based on internal company documentation. 
 
